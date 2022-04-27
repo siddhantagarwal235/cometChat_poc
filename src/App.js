@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react';
 import './App.css';
 import { initializeCometChat,createUser, loginUser } from './utils';
-import {CometChatUI} from "./cometchat-pro-react-ui-kit/CometChatWorkspace/src"
+import {CometChatUI} from "./cometchat-pro-react-ui-kit/CometChatWorkspace/src/index"
 function App() {
   useEffect(()=>{
   initializeCometChat()
